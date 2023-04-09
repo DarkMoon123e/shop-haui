@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+:root {
+  --color-main: #f17d59;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.color-main {
+  color: var(--color-main);
+}
+/* ===========header=============== */
+/* -------header-top-------------- */
+.header-top {
+  height: 45px;
+  background-color: #364c54;
+}
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-left .item {
+  display: flex;
+  padding: 10px 17px;
+}
+.header-top-left .item i {
+  margin-right: 10px;
+}
+.header-top-left .item p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.header-top-right {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-right .item {
+  padding: 10px 23px;
+}
+.header-top-right .item:first-child,
+.header-top-right .item:nth-child(2) {
+  background-color: #495c63;
+}
+.header-top-right .item a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.header-top-right .item a:hover {
+  color: var(--color-main);
+}
+.header-top-right .item a i {
+  margin-right: 10px;
+}
+
+/* ----------------header nav------------- */
+.header-nav {
+  height: 90px;
+  background-color: #3c555d;
+}
+.header-nav .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 70px;
+}
+.header-list .item a {
+  font-size: 16.875px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 29.5313px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.header-list .item a:hover {
+  color: var(--color-main);
+}
+/* ============end header=========== */
+
+/* ==============start footer ================= */
+.footer-main {
+  background: url(../img/baner-footer-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f17d59;
+  color: #ffffff;
+  padding: 7rem 0 1rem;
+  position: relative;
+  /* z-index: -1; */
+}
+.footer-main::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* z-index: -1; */
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.footer-box {
+  width: 30%;
+}
+.footer-box .box p {
+  color: #fff;
+}
+
+.footer-box .title-line {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.18px;
+  line-height: 23.4px;
+  padding: 0px 0px 11.25px;
+  margin: 0px 0px 10px;
+  margin-bottom: 34px;
+}
+.footer-box .title-line::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer-box .title {
+  font-size: 16.875px;
+  font-weight: 600;
+  letter-spacing: 0.16875px;
+  line-height: 22.5px;
+  margin: 0px 0px 9px;
+}
+.footer-box .decs {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.footer-box i {
+  margin-right: 10px;
+}
+.footer-box .box {
+  margin-bottom: 34px;
+}
+/* footer 2 */
+.footer-box .box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-box .box-item a {
+  display: block;
+  text-decoration: none;
+}
+.footer-media {
+  display: flex;
+}
+.footer-media .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #363636;
+  color: #fff;
+  font-size: 22.5px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.footer-media .item:hover i {
+  color: var(--color-main);
+}
+.footer-media .item i {
+  margin: 0;
+  color: #fff;
+}
+/* media  */
+footer .extension {
+  background-color: #363636;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 11.25px 22.5px;
+  margin-top: 34px;
+}
+footer .extension a {
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+footer .extension img {
+  margin-right: 22.5px;
+  width: 43px;
+  height: auto;
+}
+footer .extension span {
+  text-align: left;
+}
+footer .extension .second {
+  font-weight: 700;
+}
+/* ================end footer ============= */
+/* ================start copyright =========== */
+.copyright {
+  background-color: #363636;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+}
+/* =================end copyright========== */
