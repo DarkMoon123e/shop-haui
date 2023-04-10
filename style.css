@@ -183,7 +183,12 @@ footer .container {
 .footer-box .box-item a {
   display: block;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
+.footer-box .box-item a:hover {
+  color: var(--color-main);
+}
+/* media  */
 .footer-media {
   display: flex;
 }
@@ -198,6 +203,7 @@ footer .container {
   padding: 10px;
   color: #fff;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .footer-media .item:hover i {
   color: var(--color-main);
@@ -206,7 +212,7 @@ footer .container {
   margin: 0;
   color: #fff;
 }
-/* media  */
+/* extension  */
 footer .extension {
   background-color: #363636;
   border-radius: 999px;
@@ -215,6 +221,11 @@ footer .extension {
   line-height: 21px;
   padding: 11.25px 22.5px;
   margin-top: 34px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+footer .extension:hover span {
+  color: var(--color-main);
 }
 footer .extension a {
   display: flex;
