@@ -1,25 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-:root {
-  --color-main: #f17d59;
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.color-main {
-  color: var(--color-main);
-}
 /* ===========header=============== */
 /* -------header-top-------------- */
 .header-top {
@@ -246,6 +224,7 @@ footer .extension .second {
   font-weight: 700;
 }
 /* ================end footer ============= */
+
 /* ================start copyright =========== */
 .copyright {
   background-color: #363636;
