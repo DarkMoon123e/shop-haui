@@ -1,1 +1,160 @@
+/* =============start breadcrumbs =========== */
+.breadcrumbs .container {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs .container .item {
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 14px;
+}
+.breadcrumbs .container .home {
+  transition: all 0.2s ease;
+}
+.breadcrumbs .container .home:hover {
+  color: var(--color-main);
+}
+/* ==============end breadcrumbs ===========  */
 
+.BangGia {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.BangGia .container {
+  border: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.BangGia .inner_wrap {
+  margin: 30px 30px;
+}
+.BangGia .inner_table {
+  margin: 30px 30px;
+}
+.BangGia h1 {
+  text-align: center;
+}
+.BangGia .inner_table i {
+  margin: 0 0px;
+  color: green;
+}
+.BangGia .inner_table th {
+  background-color: orange;
+  color: white;
+}
+.BangGia .inner_table tr,
+td,
+th {
+  padding: 15px;
+  color: #555555;
+  font-size: 14px;
+}
+.BangGia .inner_wrap {
+  margin-left: 25px;
+}
+.BangGia .wrap-des p {
+  text-align: center;
+}
+.BangGia .wrap-des {
+  margin: 20px 0px;
+  color: #555555;
+  font-size: 14px;
+}
+.BangGia h1 {
+  font-size: 22px;
+  color: #111111;
+}
+.BangGia h2 {
+  color: #111111;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 12px;
+}
+.BangGia .footer,
+.BangGia i {
+  color: #856404;
+  margin: 20px 0px;
+  text-align: left;
+}
+.BangGia .inner_register {
+  width: 90%;
+  margin-left: 5%;
+  height: 150px;
+  border: 3px solid #0093fa;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.BangGia .inner_register .inner_title {
+  text-align: center;
+  color: white;
+  height: 30px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0093fa;
+}
+.BangGia .inner_register .inner_des {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+/* code  */
+.BangGia .inner_register .button {
+  margin-top: 30px;
+  text-align: center;
+}
+.BangGia span {
+  padding: 10px 50px;
+  text-align: justify;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ff0000;
+  color: white;
+}
+.BangGia .inner_register .btn {
+  padding: 10px 50px;
+  text-align: justify;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ff0000;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+/* code  */
+.BangGia .content {
+  display: flex;
+
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.BangGia .content .box {
+  width: 30%;
+  text-align: center;
+}
+.BangGia .box .inner-title {
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e5dab8;
+  color: #856404;
+}
+.BangGia .box .inner-des {
+  background-color: #fff3cd;
+  font-size: 14px;
+  color: #b87304;
+  padding: 10px 20px;
+  height: 150px;
+}
+.BangGia .box .inner-des p {
+  margin-bottom: 20px;
+}
+.BangGia .box .inner-final {
+  margin-top: -50px;
+}
+.BangGia .box .inner-des .inner_phone {
+  margin-top: 28px;
+}
