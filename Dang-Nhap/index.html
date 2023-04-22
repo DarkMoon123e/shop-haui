@@ -8,10 +8,6 @@
     <!-- link css  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
-    <!-- link css  -->
-    <link rel="stylesheet" href="../base.css">
-    <link rel="stylesheet" href="../header-footer.css">
-    <link rel="stylesheet" href="./Dang-Nhap.css">
 
     <title>Đăng nhập</title>
 </head>
@@ -61,7 +57,7 @@
             <div class="header-nav">
                 <div class="container">
                     <div class="header-logo">
-                        <a href="../index.html"><img src="../img/logo_china.png" alt=""></a>
+                        <a href="../index.html"><img src="./img/logo_china.png" alt=""></a>
                     </div>
                     <ul class="header-list">
                         <li class="item">
@@ -91,7 +87,79 @@
 
         </header>
         <!-- end header  -->
-        Đăng nhập nè
+        <!-- start section -->
+        <section>
+            <div class="register">
+                <div class="text">
+                    <p><strong>Đăng Nhập Tài khoản</strong></p>
+                </div>
+                <div id='errorText1'></div>
+                <div class="enter email">
+                    <div class="form"><input id="email" type="email" name="Email" placeholder="Email"></div>
+                    <div class="logoemail">
+                        <img src="./img/logoemail.png">
+                    </div>
+
+                </div>
+                <div id='errorText2'></div>
+                <div class="enter pass">
+                    <div class="form"><input id="pass" type="password" name="Mật Khẩu" placeholder="Mật Khẩu"></div>
+                    <div class="logopass">
+                        <img src="./img/logopass.png">
+                    </div>
+                </div>
+                <div class="forgotpass">
+                    <a id="forgot" href="">Quên mật khẩu?</a>
+                </div>
+                <div class="log_in">
+                    <button id="Dangnhap" class="button2" onlick="validate(event)">Đăng Nhập</button>
+                </div>
+                <div class="strike_or">
+                    <hr>
+                </div>
+                <div class="button_register">
+                    <a class="button1" href="file:///D:/ttscn-web-ban-hang/ttscn-web-ban-hang/Dang-Ki/index.html">Đăng
+                        Ký Tài Khoản</a>
+                </div>
+
+            </div>
+        </section>
+
+        <script>
+            function checkemail(event) {
+                event.preventDefault();
+                var mess = document.getElementById('errorText1');
+                var Email = document.getElementById('email').value;
+                if (Email == '') {
+                    document.getElementById('email').style.backgroundColor = 'rgb(163, 203, 181)';
+                    mess.innerHTML += '(!) Email không được để trống';
+                } else document.getElementById('email').style.backgroundColor = '';
+            }
+
+            function checkpass(event) {
+                event.preventDefault();
+                var pass = document.getElementById('pass').value;
+                var mess = document.getElementById('errorText2');
+                if (pass == '') {
+                    document.getElementById('pass').style.backgroundColor = 'rgb(163, 203, 181)';
+                    mess.innerHTML += '  (!)Mật khẩu không được để trống';
+                } else document.getElementById('pass').style.backgroundColor = '';
+            }
+
+
+
+            var DangKy = document.getElementById('Dangnhap');
+            DangKy.onclick = function validate(event) {
+                var mess1 = document.getElementById('errorText1');
+                mess1.innerHTML = '';
+                var mess2 = document.getElementById('errorText2');
+                mess2.innerHTML = '';
+
+                checkemail(event);
+                checkpass(event);
+            }
+        </script>
+        <!-- end section -->
         <!-- start footer  -->
         <footer class="footer-main">
             <div class="container">
@@ -274,7 +342,7 @@
                         <div class="extension">
                             <a href="https://chrome.google.com/webstore/detail/c%C3%B4ng-c%E1%BB%A5-%C4%91%E1%BA%B7t-h%C3%A0ng-trung-qu/ehdmdmdeiigdjfclmgenojncmpofclhm"
                                 target="_blank">
-                                <img src="../img/chrome.png" alt="">
+                                <img src="./img/chrome.png" alt="">
                                 <span>
                                     <p class="first">Tải về cho trình duyệt</p>
                                     <p class="second">Google Chrome</p>
@@ -283,7 +351,7 @@
                         <div class="extension">
                             <a href="https://chrome.google.com/webstore/detail/c%C3%B4ng-c%E1%BB%A5-%C4%91%E1%BA%B7t-h%C3%A0ng-trung-qu/ehdmdmdeiigdjfclmgenojncmpofclhm"
                                 target="_blank">
-                                <img src="../img/coccoc.png" alt="">
+                                <img src="./img/coccoc.png" alt="">
                                 <span>
                                     <p class="first">Tải về cho trình duyệt</p>
                                     <p class="second">CocCoc</p>

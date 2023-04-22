@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+:root {
+  --color-main: #f17d59;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.color-main {
+  color: var(--color-main);
+}
+/* ===========header=============== */
+/* -------header-top-------------- */
+.header-top {
+  height: 45px;
+  background-color: #364c54;
+}
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-left .item {
+  display: flex;
+  padding: 10px 17px;
+}
+.header-top-left .item i {
+  margin-right: 10px;
+}
+.header-top-left .item p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.header-top-right {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-right .item {
+  padding: 10px 23px;
+}
+.header-top-right .item:first-child,
+.header-top-right .item:nth-child(2) {
+  background-color: #495c63;
+}
+.header-top-right .item a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.header-top-right .item a:hover {
+  color: var(--color-main);
+}
+.header-top-right .item a i {
+  margin-right: 10px;
+}
+
+/* ----------------header nav------------- */
+.header-nav {
+  height: 90px;
+  background-color: #3c555d;
+}
+.header-nav .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 70px;
+}
+.header-list .item a {
+  font-size: 16.875px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 29.5313px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.header-list .item a:hover {
+  color: var(--color-main);
+}
+/* ============end header=========== */
+/* ----------------start section-------- */
+section{
+  background-image: url(./img/background.jpg);
+  background-size:cover;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  margin-top:0;
+  
+  }
+
+.register{
+  height:1200px;
+  padding-top:40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 46rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.text {
+  margin:30px 30px;
+  color:#ffffff;
+  font-size: 25px;
+  
+}
+
+.enter {
+  height: 4.5rem;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 1.1rem 1rem;
+  padding-right: 0;
+  -webkit-appearance: none;
+  margin:30px; 
+}
+.email{
+  display:flex;
+  justify-content: space-between;
+}
+.logoemail img{
+  height:25px;
+  margin:6px 20px;
+}
+.pass{
+  display:flex;
+  justify-content: space-between;
+}
+.logopass img{
+  height:20px;
+  margin:6px 20px;
+}
+.re_pass{
+  display:flex;
+  justify-content: space-between;
+}
+.logopass2 img{
+  height:20px;
+  margin:6px 20px;
+}
+.phonenumber{
+  display:flex;
+  justify-content:space-between
+}
+.logophone img{
+  height:20px;
+  margin:6px 20px;
+}
+.form{
+  width:500px;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea {
+  color: #000000;
+  background: #ffffff;
+  border: 0;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+input {
+  margin:0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height:inherit;
+  overflow: visible;
+  
+}
+input :active{
+  color:#453636;
+}
+input{
+  writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+.warehouse{
+  display:flex;
+  justify-content: space-between;
+  padding: 1.4rem 2.5rem;
+}
+button:hover{
+  background-color:#3f5954;
+}
+a:hover{
+  background-color:#3f5954;
+}
+a{
+  text-decoration-line: none;
+}
+.choice1{
+  border:0;
+}
+
+.service{
+  display:flex;
+  justify-content:space-between;
+  padding: 1.4rem 2.5rem;
+}
+
+.choice2{
+  border:0;
+}
+.button1{
+  font-size: 18px;
+  font-weight:bold;
+  color:white;
+  background-color:#f17d59;
+  border:0;
+  padding: 14px 60px;
+  
+}
+.button_register{
+  margin:30px 250px; 
+}
+.button2{
+  font-size: 18px;
+  font-weight:bold;
+  color:white;
+  background-color:#f17d59;
+  border:0;
+  padding: 14px 60px;
+}
+.log_in{
+  margin:30px 195px;
+}
+#errorText1 {
+  color:rgb(255, 255, 255);
+}
+#errorText2 {
+  color:rgb(255, 255, 255);
+}
+#errorText3 {
+  color:rgb(255, 255, 255);
+}
+#errorText4 {
+  color:rgb(255, 255, 255);
+}
+/* ----------------end section-------- */
+/* ==============start footer ================= */
+.footer-main {
+  background: url(../img/baner-footer-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f17d59;
+  color: #ffffff;
+  padding: 7rem 0 1rem;
+  position: relative;
+  /* z-index: -1; */
+}
+.footer-main::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* z-index: -1; */
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.footer-box {
+  width: 30%;
+}
+.footer-box .box p {
+  color: #fff;
+}
+
+.footer-box .title-line {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.18px;
+  line-height: 23.4px;
+  padding: 0px 0px 11.25px;
+  margin: 0px 0px 10px;
+  margin-bottom: 34px;
+}
+.footer-box .title-line::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer-box .title {
+  font-size: 16.875px;
+  font-weight: 600;
+  letter-spacing: 0.16875px;
+  line-height: 22.5px;
+  margin: 0px 0px 9px;
+}
+.footer-box .decs {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.footer-box i {
+  margin-right: 10px;
+}
+.footer-box .box {
+  margin-bottom: 34px;
+}
+/* footer 2 */
+.footer-box .box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-box .box-item a {
+  display: block;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.footer-box .box-item a:hover {
+  color: var(--color-main);
+}
+/* media  */
+.footer-media {
+  display: flex;
+}
+.footer-media .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #363636;
+  color: #fff;
+  font-size: 22.5px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.footer-media .item:hover i {
+  color: var(--color-main);
+}
+.footer-media .item i {
+  margin: 0;
+  color: #fff;
+}
+/* extension  */
+footer .extension {
+  background-color: #363636;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 11.25px 22.5px;
+  margin-top: 34px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+footer .extension:hover span {
+  color: var(--color-main);
+}
+footer .extension a {
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+footer .extension img {
+  margin-right: 22.5px;
+  width: 43px;
+  height: auto;
+}
+footer .extension span {
+  text-align: left;
+}
+footer .extension .second {
+  font-weight: 700;
+}
+/* ================end footer ============= */
+/* ================start copyright =========== */
+.copyright {
+  background-color: #363636;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* =================end copyright========== */
