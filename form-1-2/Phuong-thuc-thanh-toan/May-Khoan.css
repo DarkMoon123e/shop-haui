@@ -36,10 +36,10 @@ hr {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.inner-text {
+.inner-text{
   display: inline-block;
 }
-.inner-text p {
+.inner-text p{
   line-height: 26px;
   display: inline;
   font-size: 16px;
@@ -47,19 +47,6 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.inner-text h5 {
-  margin-bottom: 10px;
-  font-size: 14px;
-  margin-top: 10px;
+.inner-content{
+  margin-bottom: 150px;
 }
-.inner-text h4 {
-  line-height: 26px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.inner-text a {
-  color: blue;
-}
-/* .container {
-  display: flex;
-} */
