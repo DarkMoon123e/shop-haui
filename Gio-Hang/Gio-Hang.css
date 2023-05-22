@@ -1,0 +1,134 @@
+button {
+  background-color: var(--color-main);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 7px 17px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+* {
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.active {
+  display: block;
+}
+.remove {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* container  */
+.container .content {
+  padding: 0;
+}
+.container .content .left {
+  width: 100%;
+}
+
+.content {
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .left {
+  background-color: #ccc;
+  width: 70%;
+  padding: 20px;
+}
+
+.content .left .item {
+  display: flex;
+  margin-bottom: 40px;
+}
+.content .left .item .img-container {
+  width: 350px;
+  height: 220px;
+}
+.content .left img {
+  height: 200px;
+  width: auto;
+}
+.content .left .item-right {
+  padding-left: 50px;
+}
+.content .left .item-right .title {
+  padding: 7px 0;
+  color: #000000;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.content .left .item-right .price {
+  padding: 7px 0;
+  color: #ee4d2d;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.content .left .item-right .amount-container {
+  display: flex;
+}
+.content .left .item-right .amount-container input {
+  margin-left: 20px;
+}
+.content .left .item-right .color,
+.content .left .item-right .amount {
+  padding: 7px 0;
+  color: #757575;
+  font-size: 16px;
+  line-height: 18.9px;
+  font-weight: 600;
+}
+.content .left .item-right .color span,
+.content .left .item-right .amount span {
+  color: #461e1e;
+}
+
+.content .right {
+  background-color: #b1a4a4;
+  flex: 1;
+  padding: 10px 50px;
+}
+.content .right img {
+  width: 100%;
+  height: auto;
+}
+.content .right .item-right .title {
+  padding: 15px 0;
+  color: #000000;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 500;
+  text-align: center;
+}
+.content .right .item-right .price {
+  padding: 15px 0;
+  color: #ee4d2d;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.content .right .item-right .amount-container {
+  display: flex;
+}
+.content .right .item-right .amount-container input {
+  margin-right: 20px;
+}
+.content .right .item-right .color,
+.content .right .item-right .amount {
+  padding: 5px 0;
+  color: #757575;
+  font-size: 16px;
+  line-height: 18.9px;
+}
+.content .right .item-right .color span {
+  color: #461e1e;
+}
+.content .right .item-right button {
+  margin-top: 20px;
+}
